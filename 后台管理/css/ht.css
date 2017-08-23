@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.navbar-default{
+    margin-bottom: 0;
+}
+#navbar ul li a:hover{
+    color: #fff;
+    background: #e7e7e7;
+}
+.container{
+    margin-top: 70px;
+}
+#state span{
+    line-height: 30px;
+}
+.alert{
+    border: none;
+    background: #f5f5f5;
+}
+h4.page-header{
+    margin-top: 0;
+}
+a:link,a:hover,a:visited,a:active{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
+#ss .panel .alert{
+    margin-top: 10px;
+}
