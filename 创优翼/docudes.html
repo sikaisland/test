@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文档详情页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tj.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+<header >
+    <a> <img src="images/index_03.png" alt=""></a>
+    <span class="no-phone">创优翼，开启你的前端之旅！www.chuangue.com...</span>
+</header>
+<div class="content clearfix">
+    <div class="left clearfix docudes">
+        <img src="images/pic1.jpg" alt="" class="no-phone">
+
+        <ul >
+            <li class="act"><a href="#" ><i class="fa fa-home"></i><span class="no-phone">首页</span></a></li>
+            <li class="li2"><a href="#"><i class="fa fa-picture-o"></i><span class="no-phone">我的图集</span></a></li>
+            <li class="li3"><a href="#"><i class="fa fa-file-text"></i><span class="no-phone">我的文集</span></a></li>
+            <li class="li4"><a href="#"><i class="fa fa-user" ></i><span class="no-phone">我的简介</span></a></li>
+            <li class="li5"><a href="#"><i class="fa fa-music"></i><span class="no-phone">我喜欢的音乐</span></a></li>
+        </ul>
+        <button class="no-pc return">返回文档列表
+        </button>
+    </div>
+    <div class="right clearfix docudes">
+        <h4 class="no-phone"><a href="#">首页</a> >  <a>我的文集</a> > <a>文档详情页</a></h4>
+        <hr class="no-phone">
+        <article class="picdesc docudes">
+            <h2>搞好站点内部的检索功能你知多少？</h2>
+            <img src="images/index28.png" alt="" class="no-phone">更新时间：2013-04-16 16:29:42
+            <img src="images/index29.png" alt="" class="nomar no-phone"> 点击次数：843次
+            <hr class="mt no-phone">
+
+            <p class="no-phone">
+                没错，Markman 是传说中的标注神器，看起来也确实方便快捷，但是当一个页面中，要同时标注间距、大小、颜色和字号时，过多的信息一齐扔给工程师，就会让人有些抓狂。<br><br>
+
+                这里的标注虽然都有清晰的箭头指示，但却并不具有视觉逻辑，或者说呈现出来的视觉逻辑并不符合开发逻辑。
+                工程师在搭建一个页面的时候，会先去架构布 局，一块内容一块内容划分好，接着填充进内容，最后来修改视觉的样式。
+                那么我们也应该按照顺序，先告诉人家每个模块的间距啦大小啦，再告诉人家用什么字体 和颜色，也就是先有布局标注，再有样式标注。<br><br>
+
+                标注信息分类之后，我还会给标注本身设置共享样式：块面通常用蓝色的遮罩，区别不同百分比时则用红黄绿的遮罩，数字间距用红底白字，视觉样式则用蓝 底白字，
+                这样的好处是：对与设计师，可以快捷修改所有标注样式；对于工程师，快速建立对这套标注视觉语言的认知，
+                明白不同颜色所代表的信息属性，更方便的 找到他所需要的信息。<br><br>
+
+                设计实现之前，就和工程师们一起统一一套样式规范，除了常见的颜色和字体之外，
+                我还会把通用的 UI 组件拿出来，一半是针对系统原生控件的样式定制（alert/toast/radio btn/switch…），
+                一半则是完全自定义的 UI 组件（产品自己的 UI kit）可以是任何会高频复用的产品功能性的东西，比如这里的 SKU 选择器和按钮。<br><br>
+
+            </p>
+            <p class="no-pc">
+                1、搜索热门关键字，能让用户点的不让用户区输入<br>，这就是人性化，
+                搜索框下最好有经常被检索的关键<br>字，这个关键字可以用上述第2点获取。
+                而且对于销<br>售型的网站不同时期都要及时的更新。<br><br>
+
+                2、搜索结果页面，搜索出来后的结果页面也是不可<br>忽视的，
+                经常看淘宝的用户知道，搜索结果页面上方<br>会有产品所属的分类，所属的型号，
+                品牌、其实还可<br>以加入一排相关搜索关键字，类似百度下方的相关搜<br>索。
+                总之一步步的让用户根据自己的需求找到相应的产品，便捷从细节开始。<br><br>
+
+                3、搜索提示功能，用户输入关键字 ，自动出现下拉<br>框显示相关搜素关键词，
+                这个功能大家都很熟悉了，<br>比如百度 淘宝都在用；实用性很强，
+                的确为用户提<br>供了很多方便；其实这个功能还有其他的作用，就是<br>引导用，
+                避免了原来用户随意输入不太符合规则的关<br>键字，导致搜搜无结果的尴尬。
+                尤其对产品销售型的<br>网站，友好的提示，让客户最快找到他要的东西。<br><br>
+
+                4、用户搜素记录，用户在搜索的时候，做一下记录<br>处理，
+                记录一下用户输入的关键字。做搜索数量统计<br>，发觉自己网站用户的搜索倾向
+                ，配合高搜索率的<br>关键字做一些促销及专题，满足用户的胃口。<br><br>
+
+                从这个功能的延伸，就是尽可能的获取用户的详细信<br>息，
+                这个可以配合网站会员功能，具体实现起来：
+                当<br>用户以登陆方式搜索时候，记录搜索的关键字及用户<br>会员ID 。
+                这样就获得了用户信息，便可通过邮件等<br>方式将其感兴趣的内容传达给他。
+
+            </p>
+            <hr class="no-phone">
+
+            <a href="#" class="aleft no-phone">
+                <img src="images/index31.png" alt="" class="nomargin no-phone"><span>上一篇：</span>这效果超火！教你创建高大上的多边形字体
+            </a>
+            <a href="#" class="notop no-phone">
+                <img src="images/index30.png" alt="" class="nomargin no-phone"><span>下一篇：</span>PS抠图神器：KnockOut 2.0汉化版下载及教程
+            </a>
+
+        </article>
+
+       <div class="foota no-pc">
+           <a href="#" >
+               <img src="images/index31.png" alt="" class="nomargin no-phone"><span>上一篇：</span>这效果超火！教你创建高大上的多边形字体
+           </a>
+           <a href="#" >
+               <img src="images/index30.png" alt="" class="nomargin no-phone"><span>下一篇：</span>PS抠图神器：KnockOut 2.0汉化版下载及教程
+           </a>
+       </div>
+        <section class="pic clearfix no-phone">
+            <h1>精彩图片</h1>
+            <img src="images/pic7.jpg">
+            <img src="images/pic8.jpg" class="limar">
+        </section>
+    </div>
+</div>
+<footer>
+    <div class="link">
+        <a href="#">我的微博：http://weibo.com/pleasonalweb</a>
+        <a href="#" class="a1">如需服务请拨打：13260308141</a>
+        <a href="#" class="a2">咨询QQ：2193541879</a>
+    </div>
+    <p>
+        Copyright © 2010 - 2013 uidiv.com All Rights Reserved         Powered By PHPMyWind
+    </p>
+</footer>
+<script>
+    document.getElementsByTagName("html")[0].style.fontSize=(window.innerWidth/640)*100+"px";
+</script>
+</body>
+</html>
